@@ -10,6 +10,8 @@
     width: 375px;
     height: 100vh;
     text-align: center;
+    background-image: url(/images/faq-short-01.jpg);
+    background-size: contain;
 }
 
 .oExpand a {
