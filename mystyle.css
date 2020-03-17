@@ -1,3 +1,31 @@
-h1 {
+/* mini css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.oExpand a {
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 10px solid whitesmoke;
     color: black;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.oExpand {
+    margin-top: 20px;
+}
+
+.oShow {
+    background-color: lightblue;
+    border: 10px solid lightblue;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
 }
