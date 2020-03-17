@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 /* mini css reset */
 
 * {
@@ -10,6 +8,7 @@
 
 #oWrapper {
     width: 375px;
+    height: 100vh;
     text-align: center;
 }
 
@@ -48,4 +47,3 @@
     z-index: 1;
     border-top: 25px solid lightblue;
 }
->>>>>>> origin/master
