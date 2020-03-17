@@ -2,30 +2,50 @@
 *,
 *:before,
 *:after {
-    margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    width: 377px;
+    height: 814px;
+    background-image: url(images/programmesshort-backgr-01.jpg);
 }
 
 .uheader {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2em;
     text-align: center;
-    padding-top: 70px;
-    background-image: url(images/programmesshort-backgr-01.jpg);
-    width: 377px;
-    height: 814px;
+    padding-top: 50px;
+    color: #58676A;
+
 }
 
-.uAPdiv {
+.uAPp,
+.uBachelorp,
+.uTopp {
+    text-align: center;
+    padding-top: 35px;
+    color: #707070;
+}
+
+.uAPdiv,
+.uBachelordiv,
+.uTopdiv {
     width: 258px;
     height: 90px;
-    background-color: beige;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 
 .go-back {
