@@ -47,3 +47,38 @@
     z-index: 1;
     border-top: 25px solid lightblue;
 }
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: Segoe;
+    src: url('fonts/Segoe UI.ttf');
+}
+
+@font-face {
+    font-family: Segoe Bold;
+    src: url('fonts/Segoe UI Bold.ttf');
+}
+
+@font-face {
+    font-family: Segoe Bold Italic;
+    src: url('fonts/Segoe UI Bold.ttf');
+}
+
+@font-face {
+    font-family: Segoe Italic;
+    src: url('fonts/Segoe UI Bold Italic.ttf');
+}
+
+/* FONTS */
+
+
+
+
+
+h1 {
+    font-family: Segoe;
+
+}
