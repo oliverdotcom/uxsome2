@@ -13,7 +13,7 @@ html {
 
 body {
     width: 100%;
-    background-image: url(../images/contact-backgr-01.jpg);
+    background-image: url(../images/contact-backgr-01.png);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: scroll;
@@ -45,4 +45,41 @@ body {
     font-family: 'Segoe UI';
     font-size: 24px;
     text-align: center;
+}
+
+.bsection1 {
+    margin-top: 170px;
+}
+
+.contact-section1 {
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    text-align: center;
+}
+
+.contact-icon1 {
+    font-size: 24px;
+    color: #82B6C0;
+    text-align: center;
+}
+
+.contact-icon2 {
+    font-size: 24px;
+    color: #82B6C0;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.bdetails {
+    font-family: 'Segoe UI';
+    padding-left: 10px;
+    color: #707070;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.contact-details {
+    margin-top: 50px;
+    margin-left: 130px;
 }
