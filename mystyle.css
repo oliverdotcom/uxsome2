@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+=======
+/* mini css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#oWrapper {
+    width: 375px;
+    text-align: center;
+}
+
+.oExpand a {
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 15px solid whitesmoke;
+    color: black;
+    width: 100%;
+    border-radius: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+
+}
+
+.oExpand {
+    position: relative;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 30px 0 0 0;
+    padding: 30px 0 0 0;
+    z-index: 2;
+}
+
+.oShow {
+    position: relative;
+    display: inline-block;
+    background-color: lightblue;
+    border: 10px solid lightblue;
+    width: 83.5vw;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin: 0;
+    text-align: justify;
+    z-index: 1;
+    border-top: 25px solid lightblue;
+}
+>>>>>>> origin/master
