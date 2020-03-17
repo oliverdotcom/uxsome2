@@ -7,12 +7,12 @@
 .uheader {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2em;
-
-}
-
-.uProgrammesback {
+    text-align: center;
+    padding-top: 20px;
+    background-image: url(images/programmesshort-backgr-01.jpg);
     width: 377px;
-    height: 814px
+    height: 814px;
+
 }
 
 /* FONTS */
