@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 /* mini css reset */
 
 * {
@@ -10,7 +8,10 @@
 
 #oWrapper {
     width: 375px;
+    height: 100vh;
     text-align: center;
+    background-image: url(/images/faq-short-01.jpg);
+    background-size: contain;
 }
 
 .oExpand a {
@@ -48,4 +49,38 @@
     z-index: 1;
     border-top: 25px solid lightblue;
 }
->>>>>>> origin/master
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: Segoe;
+    src: url('fonts/Segoe UI.ttf');
+}
+
+@font-face {
+    font-family: Segoe Bold;
+    src: url('fonts/Segoe UI Bold.ttf');
+}
+
+@font-face {
+    font-family: Segoe Bold Italic;
+    src: url('fonts/Segoe UI Bold.ttf');
+}
+
+@font-face {
+    font-family: Segoe Italic;
+    src: url('fonts/Segoe UI Bold Italic.ttf');
+}
+
+/* FONTS */
+
+
+
+
+
+h1 {
+    font-family: Segoe;
+
+}
