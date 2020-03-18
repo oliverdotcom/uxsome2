@@ -187,6 +187,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 #uMyEvents {
@@ -199,7 +200,9 @@ body {
 }
 
 .uu-daysdiv,
-.uStudiediv {
+.uStudiediv,
+.uInfomeetdiv,
+.uWeek43div {
     width: 335px;
     height: 123px;
     position: relative;
@@ -217,7 +220,13 @@ body {
     background-image: url(../images/studieinfo.png)
 }
 
+.uInfomeetdiv {
+    background-image: url(../images/infomeetings.png)
+}
 
+.uWeek43div {
+    background-image: url(../images/week43.png)
+}
 
 
 
