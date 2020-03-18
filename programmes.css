@@ -166,6 +166,24 @@ body {
     background-image: url(images/webdevelopmentTOP.png)
 }
 
+/*EVENTS CSS CODES*/
+.uEventsheader,
+.uEventsp {
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 20px;
+    color: #58676A;
+    margin-bottom: 180px;
+}
+
+.uEventsp {
+    font-size: 1.4em;
+    width: 250px
+}
+
+
+
+
 /* FONTS */
 
 @font-face {
