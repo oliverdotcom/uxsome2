@@ -197,7 +197,8 @@ body {
     padding-left: 5px;
 }
 
-.uu-daysdiv {
+.uu-daysdiv,
+.uStudiediv {
     width: 335px;
     height: 123px;
     position: relative;
@@ -207,11 +208,22 @@ body {
     margin-top: 42px;
 }
 
+.uStudiep {
+    font-size: 1.4em;
+    width: 250px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .uu-daysdiv {
     background-image: url(../images/event%20u-days.jpg)
 }
 
-
+.uStudiediv {
+    background-image: url(../images/studie%20info.jpg)
+}
 
 
 
