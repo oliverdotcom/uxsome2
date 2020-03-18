@@ -16,7 +16,7 @@ html {
 
 body {
     width: 100%;
-    background-image: url(../images/programmesshort-backgr-01.jpg);
+    background-image: url(images/programmesshort-backgr-01.jpg);
     background-size: contain;
 }
 
@@ -83,20 +83,20 @@ body {
 }
 
 .uITdiv {
-    background-image: url(../images/ITtechnologyAP.png);
+    background-image: url(images/ITtechnologyAP.png);
 
 }
 
 .uMMdiv {
-    background-image: url(../images/marketingAP.png)
+    background-image: url(images/marketingAP.png)
 }
 
 .uMDdiv {
-    background-image: url(../images/multimediaAP.png)
+    background-image: url(images/multimediaAP.png)
 }
 
 .uBioScdiv {
-    background-image: url(../images/chemicascience.png)
+    background-image: url(images/chemicascience.png)
 }
 
 .uITp,
@@ -147,23 +147,23 @@ body {
 
 
 .uBioTechdiv {
-    background-image: url(../images/chemicaltechnologyTop.png)
+    background-image: url(images/chemicaltechnologyTop.png)
 }
 
 .uInEnTopdiv {
-    background-image: url(../images/innovationTop.png)
+    background-image: url(images/innovationTop.png)
 }
 
 .uDigConceptTopdiv {
-    background-image: url(../images/digitalconceptTOP.png)
+    background-image: url(images/digitalconceptTOP.png)
 }
 
 .uProductDevdiv {
-    background-image: url(../images/productTOP.png)
+    background-image: url(images/productTOP.png)
 }
 
 .uWebDevdiv {
-    background-image: url(../images/webdevelopmentTOP.png)
+    background-image: url(images/webdevelopmentTOP.png)
 }
 
 
