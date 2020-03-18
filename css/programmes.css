@@ -239,7 +239,9 @@ body {
     color: #49575A;
 }
 
-.uAppDeadlinediv {
+.uAppDeadlinediv,
+.uAttachdiv,
+.uENtestdiv {
     width: 258px;
     height: 90px;
     position: relative;
@@ -249,20 +251,28 @@ body {
     margin-top: 42px;
 }
 
-.uAppDeadlineP {
-    font-size: 1.4em;
+.uAppDeadlinep,
+.uAttachp,
+.uENtestp {
+    font-size: 1.3em;
     width: 250px;
     color: white;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+    padding-top: 15px;
+
 }
 
+.uAppDeadlinediv {
+    background-image: url(../images/howtoapply.png)
+}
 
+.uAttachdiv {
+    background-image: url(../images/attachement.png)
+}
 
-
-
+.uENtestdiv {
+    background-image: url(../images/englishtest.png)
+}
 
 
 
