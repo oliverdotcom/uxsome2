@@ -13,9 +13,89 @@ html {
 
 body {
     width: 100%;
-    background-image: url(../images/login-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(../images/login-background-01.png);
+    background-size: auto;
     overflow: scroll;
     overflow-x: hidden;
+    height: 740px;
+
+
+}
+
+.login-form {
+    margin-top: 200px;
+    text-align: center;
+    background: rgba(130, 182, 192, 0.5);
+    width: 320px;
+    margin-left: 28px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(112, 112, 112, 0.5);
+    position: relative;
+
+}
+
+
+.login-icon {
+    color: #82B6C0;
+    font-size: 22px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 50px;
+    text-align: center;
+
+}
+
+
+.login-details {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.log {
+    width: 215px;
+    padding: 10px;
+    text-align: center;
+    border-left: 3px solid #82B6C0;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+}
+
+.psw-container {
+    margin-top: 10px;
+    color: #7E7E7E;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+}
+
+.psw-link {
+    color: #7E7E7E;
+    font-weight: 800;
+}
+
+.loginbtn {
+    color: white;
+    background-color: #82B6C0;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border-radius: 40px;
+    height: 77px;
+    width: 139px;
+
+}
+
+
+.checktxt {
+    font-size: 14px;
+    color: #7E7E7E;
+    font-family: 'Segoe UI';
+
 }
