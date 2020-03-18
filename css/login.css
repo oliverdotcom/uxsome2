@@ -1,0 +1,21 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background-image: url(../images/login-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: scroll;
+    overflow-x: hidden;
+}
