@@ -18,18 +18,17 @@
 
             <form class="login-form">
                 <div class="login-details">
-                   <i class="login far fa-user"></i>
-                    <input type="text" placeholder="Username" name="uname" required><br><br>
-                    <i class="login fas fa-unlock-alt"></i>
-                    <input type="password" placeholder="Password" name="psw" required><br><br><br>
-                    <button type="submit">LOG IN</button>
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                    </label>
+                   <i class="login-icon far fa-user"></i>
+                    <input type="text" class="log" placeholder="Username" name="uname" required><br><br>
+                    <i class="login-icon fas fa-unlock-alt"></i>
+                    <input type="password" class="log" placeholder="Password" name="psw" required><br>
+                    <div class="psw-container">
+                    <span class="psw">Forgot <a href="#" class="psw-link">password?</a></span><br><br><br>
                 </div>
-
-                <div class="container" style="background-color:#f1f1f1">
-                    <span class="psw">Forgot <a href="#">password?</a></span>
+                    <button type="submit" class="loginbtn">LOG IN</button><br><br>
+                    <label>
+                        <input type="checkbox" class="checkboxbtn" checked="checked" name="remember"><span class="checktxt">Remember me</span>
+                    </label>
                 </div>
             </form>
 
