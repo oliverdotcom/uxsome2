@@ -15,24 +15,24 @@ html {
 }
 
 body {
-    width: 377px;
-    height: 814px;
+    width: 100%;
     background-image: url(images/programmesshort-backgr-01.jpg);
+    background-size: contain;
 }
 
 .uheader {
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
     color: #58676A;
-
+    margin-bottom: 100px;
 }
 
 .uAPp,
 .uBachelorp,
 .uTopp {
     text-align: center;
-    padding-top: 35px;
+    padding-top: 33px;
     color: #707070;
 }
 
@@ -45,7 +45,7 @@ body {
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .go-back {
