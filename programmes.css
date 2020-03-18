@@ -118,7 +118,9 @@ body {
 
 /*Top-up Programmes styling*/
 
-.uBioTechdiv {
+.uBioTechdiv,
+.uInEnTopdiv,
+.uDigConceptTopdiv {
     width: 258px;
     height: 90px;
     position: relative;
@@ -128,7 +130,9 @@ body {
     margin-top: 42px;
 }
 
-.uBioTechp {
+.uBioTechp,
+.uInEnTopp,
+.uDigConceptTopp {
     text-align: center;
     padding-top: 24px;
     color: white;
@@ -142,8 +146,13 @@ body {
     background-image: url(images/chemicaltechnologyTop.png)
 }
 
+.uInEnTopdiv {
+    background-image: url(images/innovationTop.png)
+}
 
-
+.uDigConceptTopdiv {
+    background-image: url(images/digitalconceptTOP.png)
+}
 
 
 /* FONTS */
