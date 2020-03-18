@@ -30,15 +30,20 @@ body {
 
 .uAPp,
 .uBachelorp,
-.uTopp {
+.uTopp,
+.uITp,
+.uMMp {
     text-align: center;
     padding-top: 33px;
     color: #707070;
+    font-size: 1.2em;
 }
 
 .uAPdiv,
 .uBachelordiv,
-.uTopdiv {
+.uTopdiv,
+.uITdiv,
+.uMMdiv {
     width: 258px;
     height: 90px;
     background-color: white;
