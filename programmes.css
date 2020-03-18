@@ -82,7 +82,8 @@ body {
 }
 
 .uITdiv {
-    background-image: url(images/it%20technologyAP.png)
+    background-image: url(images/it%20technologyAP.png);
+
 }
 
 .uMMdiv {
@@ -90,7 +91,7 @@ body {
 }
 
 .uMDdiv {
-    background-image: url(images/multimediaAP.png)
+    background-image: url(multi.png)
 }
 
 .uITp,
