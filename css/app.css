@@ -1,0 +1,78 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background-image: url(../images/background-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: scroll;
+    overflow-x: hidden;
+
+
+}
+
+.bstudy-counselling {
+    font-size: 27px;
+    font-family: ff-utility-web-pro, sans-serif;
+    font-weight: 500;
+}
+
+.logo-gif {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.en {
+    font-weight: bold;
+}
+
+.language {
+    font-family: 'Segoe UI';
+    font-size: 12px;
+}
+
+.language-container {
+    margin-top: 10px;
+    margin-left: 320px;
+}
+
+.logaccount-container {
+    margin-top: 50px;
+    margin-left: 52px;
+}
+
+.account {
+    color: white;
+    background-color: #82B6C0;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border-radius: 40px;
+    height: 92px;
+
+}
+
+.login {
+    color: #82B6C0;
+    background-color: white;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border-radius: 40px;
+    border: 3px solid #82B6C0;
+    width: 267px;
+
+}
