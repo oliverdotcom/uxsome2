@@ -71,7 +71,8 @@ body {
 /*HERE IS THE AP PROGRAMMES STYLE CODE*/
 .uITdiv,
 .uMMdiv,
-.uMDdiv {
+.uMDdiv,
+.uBioScdiv {
     width: 258px;
     height: 90px;
     position: relative;
@@ -94,9 +95,14 @@ body {
     background-image: url(images/multimediaAP.png)
 }
 
+.uBioScdiv {
+    background-image: url(images/chemicascience.png)
+}
+
 .uITp,
 .uMMp,
-.uMDp {
+.uMDp,
+.uBioScp {
     text-align: center;
     padding-top: 33px;
     color: white;
