@@ -20,39 +20,6 @@ body {
     background-size: contain;
 }
 
-.uheader {
-    font-size: 1.6em;
-    text-align: center;
-    padding-top: 20px;
-    color: #58676A;
-    margin-bottom: 180px;
-}
-
-.uAPp,
-.uBachelorp,
-.uTopp,
-.uITp,
-.uMMp {
-    text-align: center;
-    padding-top: 33px;
-    color: #707070;
-    font-size: 1.2em;
-}
-
-.uAPdiv,
-.uBachelordiv,
-.uTopdiv,
-.uITdiv,
-.uMMdiv {
-    width: 258px;
-    height: 90px;
-    background-color: white;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 42px;
-}
-
 .go-back {
     font-size: 24px;
     color: #707070;
@@ -65,7 +32,83 @@ body {
     padding: 5px;
     width: 40px;
 }
+
+.uheader {
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 20px;
+    color: #58676A;
+    margin-bottom: 180px;
 }
+
+.uAPp,
+.uBachelorp {
+    text-align: center;
+    padding-top: 33px;
+    color: #707070;
+    font-size: 1.2em;
+}
+
+.uTopp {
+    text-align: center;
+    padding-top: 23px;
+    color: #707070;
+    font-size: 1.2em;
+}
+
+.uAPdiv,
+.uBachelordiv,
+.uTopdiv {
+    width: 258px;
+    height: 90px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+}
+
+/*HERE IS THE AP PROGRAMMES STYLE CODE*/
+.uITdiv,
+.uMMdiv,
+.uMDdiv {
+    width: 258px;
+    height: 90px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+}
+
+.uITdiv {
+    background-image: url(images/it%20technologyAP.png)
+}
+
+.uMMdiv {
+    background-image: url(images/marketingAP.png)
+}
+
+.uMDdiv {
+    background-image: url(images/multimediaAP.png)
+}
+
+.uITp,
+.uMMp,
+.uMDp {
+    text-align: center;
+    padding-top: 33px;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
 
 /* FONTS */
 
