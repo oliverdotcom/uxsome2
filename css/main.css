@@ -14,11 +14,10 @@ html {
 body {
     width: 100%;
     background-image: url(../images/homepage-background-01.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 1585px;
+    height: 1685px;
+
 
 }
 
@@ -48,47 +47,144 @@ body {
     font-family: 'Segoe UI';
     color: #393737;
     font-weight: lighter;
-    padding-top: 50px;
+    padding-top: 44px;
     padding-left: 20px;
 }
 
 .badmission {
     background: #82B6C0;
     height: 121px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 340px;
 }
 
 .bprogrammes {
     background: rgba(130, 182, 192, 0.75);
     height: 121px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 340px;
 }
 
 .bcareer-homepage {
     background: rgba(130, 182, 192, 0.52);
     height: 121px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 340px;
 }
 
 .bpersonalcoaching {
     background: rgba(130, 182, 192, 0.35);
     height: 121px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 340px;
 }
 
 .bevents-homepage {
     background: rgba(130, 182, 192, 0.25);
     height: 121px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 340px;
 }
 
 .bfaq-homepage {
     background: rgba(130, 182, 192, 0.15);
     height: 121px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 340px;
 }
 
 .bstudentsstories {
     background: #FFFFFF;
     height: 121px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 340px;
 }
 
 
 .bcontacts-homepage {
     background: rgba(112, 112, 112, 0.7);
     height: 121px;
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 340px;
+}
+
+.homepage-arrow {
+    text-decoration: none;
+}
+
+.arrowright-icon {
+    font-size: 24px;
+    color: #707070;
+    margin-left: 330px;
+    margin-top: -100px;
+
+}
+
+.interactive-section {
+    width: 200px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.bookbtn-home {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    padding: 8px;
+    height: 75px;
+    width: 75px;
+    border-radius: 70px;
+    padding-top: 5px;
+    box-shadow: 0 0 40px rgba(62, 105, 114, 1);
+    margin-left: -3px;
+    background-color: #EDF5F6;
+    color: #707070;
+}
+
+.appointmentxt-home {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    width: 200px;
+}
+
+.bbtn-text {
+    margin-left: 12px;
+    margin-top: 22px;
+}
+
+.chatbtn-home {
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    height: 107px;
+    width: 107px;
+    border-radius: 80px;
+    margin-top: -18px;
+    box-shadow: 0 0 40px rgba(62, 105, 114, 1);
+    margin-left: -19px;
+    background-color: #EDF5F6;
+    color: #707070;
+}
+
+.chat-section {
+    margin-left: 260px;
+    margin-top: 46px;
+
 }
