@@ -166,9 +166,12 @@ body {
     background-image: url(images/webdevelopmentTOP.png)
 }
 
+
+
 /*EVENTS CSS CODES*/
-.uEventsheader,
-.uEventsp {
+
+
+.uEventsheader {
     font-size: 1.6em;
     text-align: center;
     padding-top: 20px;
@@ -178,8 +181,32 @@ body {
 
 .uEventsp {
     font-size: 1.4em;
-    width: 250px
+    width: 250px;
+    color: #707070;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
