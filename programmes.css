@@ -120,7 +120,9 @@ body {
 
 .uBioTechdiv,
 .uInEnTopdiv,
-.uDigConceptTopdiv {
+.uDigConceptTopdiv,
+.uProductDevdiv,
+.uWebDevdiv {
     width: 258px;
     height: 90px;
     position: relative;
@@ -132,7 +134,9 @@ body {
 
 .uBioTechp,
 .uInEnTopp,
-.uDigConceptTopp {
+.uDigConceptTopp,
+.uProductDevp,
+.uWebDevp {
     text-align: center;
     padding-top: 24px;
     color: white;
@@ -154,6 +158,13 @@ body {
     background-image: url(images/digitalconceptTOP.png)
 }
 
+.uProductDevdiv {
+    background-image: url(images/productTOP.png)
+}
+
+.uWebDevdiv {
+    background-image: url(images/webdevelopmentTOP.png)
+}
 
 /* FONTS */
 
