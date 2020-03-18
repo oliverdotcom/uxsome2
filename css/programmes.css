@@ -230,11 +230,34 @@ body {
 
 
 
+/*HOW TO APPLY STYLE CODE STARTS HERE*/
 
+.uHowToheader {
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 20px;
+    color: #49575A;
+}
 
+.uAppDeadlinediv {
+    width: 258px;
+    height: 90px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+}
 
-
-
+.uAppDeadlineP {
+    font-size: 1.4em;
+    width: 250px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
 
 
 
