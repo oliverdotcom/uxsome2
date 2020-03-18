@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../images/account-background-01.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 812px;
+}
+
+.accounttxt {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: #638C94;
+    padding-top: 28px;
+}
+
+.user-account {
+    font-size: 160px;
+    color: white;
+    margin-top: 165px;
+    margin-left: 115px;
+}
+
+.baccount-form {
+    margin-top: -50px;
+    text-align: center;
+    background: rgba(130, 182, 192, 0.5);
+    width: 320px;
+    height: 400px;
+    margin-left: 28px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(112, 112, 112, 0.5);
+    position: relative;
+
+}
+
+
+.baccount-details {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-top: -70px;
+}
+
+
+.accountbox {
+    width: 240px;
+    padding: 10px;
+    border: 2px solid #82B6C0;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    margin-top: 10px;
+}
+
+
+.arrowbtnaccount {
+    color: white;
+    background-color: #82B6C0;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border-radius: 70px;
+    height: 77px;
+    width: 80px;
+    box-shadow: 0 0 50px rgba(112, 112, 112, 0.5);
+
+}
+
+.arrow-right {
+    font-size: 38px;
+    color: white;
+}
+
+#bprogrammetxt {
+    background-image: url(../images/arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    color: #707070;
+    background-position: 200px;
+    padding-right: 20px;
+
+}
