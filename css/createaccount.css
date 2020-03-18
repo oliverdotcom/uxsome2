@@ -86,3 +86,13 @@ body {
     font-size: 38px;
     color: white;
 }
+
+#bprogrammetxt {
+    background-image: url(../images/arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    color: #707070;
+    background-position: 200px;
+    padding-right: 20px;
+
+}
