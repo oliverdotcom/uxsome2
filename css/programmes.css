@@ -71,7 +71,8 @@ body {
 /*HERE IS THE AP PROGRAMMES STYLE CODE*/
 .uITdiv,
 .uMMdiv,
-.uMDdiv {
+.uMDdiv,
+.uBioScdiv {
     width: 258px;
     height: 90px;
     position: relative;
@@ -94,6 +95,10 @@ body {
     background-image: url(images/multimediaAP.png)
 }
 
+.uBioScdiv {
+    background-image: url(images/chemicascience.png)
+}
+
 .uITp,
 .uMMp,
 .uMDp {
@@ -103,13 +108,63 @@ body {
     font-size: 1.2em;
 }
 
+.uBioScp {
+    text-align: center;
+    padding-top: 24px;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+/*Top-up Programmes styling*/
+
+.uBioTechdiv,
+.uInEnTopdiv,
+.uDigConceptTopdiv,
+.uProductDevdiv,
+.uWebDevdiv {
+    width: 258px;
+    height: 90px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+}
+
+.uBioTechp,
+.uInEnTopp,
+.uDigConceptTopp,
+.uProductDevp,
+.uWebDevp {
+    text-align: center;
+    padding-top: 24px;
+    color: white;
+    font-size: 1.2em;
+}
 
 
 
 
+.uBioTechdiv {
+    background-image: url(images/chemicaltechnologyTop.png)
+}
 
+.uInEnTopdiv {
+    background-image: url(images/innovationTop.png)
+}
 
+.uDigConceptTopdiv {
+    background-image: url(images/digitalconceptTOP.png)
+}
 
+.uProductDevdiv {
+    background-image: url(images/productTOP.png)
+}
+
+.uWebDevdiv {
+    background-image: url(images/webdevelopmentTOP.png)
+}
 
 /* FONTS */
 
