@@ -1,0 +1,72 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background-image: url(../images/careercounselling-background-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: scroll;
+    overflow-x: hidden;
+
+
+}
+
+.go-back {
+    font-size: 24px;
+    color: #707070;
+}
+
+.back-link {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.Bback-arrow {
+    margin: 10px;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    padding: 5px;
+    width: 40px;
+}
+
+
+.bcareerhead {
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-size: 26px;
+    text-align: center;
+}
+
+.accordion-careerbtn {
+    width: 300px;
+    background-color: white;
+    color: #707070;
+    padding: 18px;
+    border-radius: 20px;
+    border: 1px solid #82B6C0;
+    box-shadow: 0 0 10px rgba(112, 112, 112, 1);
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.bcareer-section {
+    margin-top: 180px;
+    text-align: center;
+
+}
