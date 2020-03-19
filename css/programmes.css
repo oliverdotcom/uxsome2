@@ -242,7 +242,8 @@ body {
 
 .uAppDeadlinediv,
 .uAttachdiv,
-.uENtestdiv {
+.uENtestdiv,
+.uGuidediv {
     width: 258px;
     height: 90px;
     position: relative;
@@ -263,6 +264,15 @@ body {
 
 }
 
+.uGuidep {
+    font-size: 1.3em;
+    width: 250px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
 .uAppDeadlinediv {
     background-image: url(../images/howtoapply.png)
 }
@@ -275,6 +285,9 @@ body {
     background-image: url(../images/englishtest.png)
 }
 
+.uGuidediv {
+    background-image: url(../images/guidelines.png)
+}
 
 
 
