@@ -187,6 +187,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 #uMyEvents {
@@ -194,11 +195,14 @@ body {
     color: white;
     float: right;
     align-content: center;
-    padding-left: 5px;
+    margin-right: 20px;
+    margin-top: 45px;
 }
 
 .uu-daysdiv,
-.uStudiediv {
+.uStudiediv,
+.uInfomeetdiv,
+.uWeek43div {
     width: 335px;
     height: 123px;
     position: relative;
@@ -208,37 +212,68 @@ body {
     margin-top: 42px;
 }
 
-.uStudiep {
-    font-size: 1.4em;
-    width: 250px;
-    color: white;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .uu-daysdiv {
     background-image: url(../images/event%20u-days.jpg)
 }
 
 .uStudiediv {
-    background-image: url(../images/studie%20info.jpg)
+    background-image: url(../images/studieinfo.png)
+}
+
+.uInfomeetdiv {
+    background-image: url(../images/infomeetings.png)
+}
+
+.uWeek43div {
+    background-image: url(../images/week43.png)
 }
 
 
 
+/*HOW TO APPLY STYLE CODE STARTS HERE*/
 
+.uHowToheader {
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 20px;
+    color: #49575A;
+    margin-bottom: 140px;
+}
 
+.uAppDeadlinediv,
+.uAttachdiv,
+.uENtestdiv {
+    width: 258px;
+    height: 90px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+}
 
+.uAppDeadlinep,
+.uAttachp,
+.uENtestp {
+    font-size: 1.3em;
+    width: 250px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
 
+}
 
+.uAppDeadlinediv {
+    background-image: url(../images/howtoapply.png)
+}
 
+.uAttachdiv {
+    background-image: url(../images/attachement.png)
+}
 
-
-
-
-
-
+.uENtestdiv {
+    background-image: url(../images/englishtest.png)
+}
 
 
 
