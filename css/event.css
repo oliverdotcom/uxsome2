@@ -1,3 +1,22 @@
+body {
+    width: 100%;
+    background-image: url(../images/programmesshort-backgr-01.jpg);
+    background-size: contain;
+}
+
+.go-back {
+    font-size: 24px;
+    color: #707070;
+}
+
+.back-arrow {
+    margin: 10px;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    padding: 5px;
+    width: 40px;
+}
+
 /*EVENTS CSS CODES*/
 
 
@@ -56,8 +75,6 @@
 .uWeek43div {
     background-image: url(../images/week43.png)
 }
-
-
 
 
 /*U-DAYS CSS CODE STARTS HERE*/
