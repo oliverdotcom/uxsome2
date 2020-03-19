@@ -27,7 +27,7 @@
         <div class="bcareer-section">
             <button class="accordion-careerbtn">Internship and job portal</button>
             <button class="accordion-careerbtn">Applications and CVs</button>
-            <div class="panel-uploadcv">
+            <div class="panel">
                 <button class="uploadcv-btn">Upload your CV</button>
             </div>
 
@@ -35,7 +35,23 @@
         </div>
     </main>
 
+    <script>
+        var acc = document.getElementsByClassName("accordion-careerbtn");
+        var i;
 
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+
+    </script>
 </body>
 
 </html>
