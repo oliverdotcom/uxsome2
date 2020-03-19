@@ -13,12 +13,12 @@ html {
 
 body {
 
-    background-image: url(../images/appointment-backgroundlong-01.jpg);
+    background-image: url(../images/appointment-backgr-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: scroll;
     overflow-x: hidden;
-    height: 2015px;
+    height: 2124px;
 
 }
 
@@ -65,15 +65,58 @@ body {
     width: 170px;
     height: 90px;
     vertical-align: middle;
-    margin-bottom: 24px;
-    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
 
+
+.expert-trine {
+    width: 170px;
+    height: 90px;
+    vertical-align: middle;
+    margin-top: -10px;
+    margin-left: 80px;
 }
 
 
 .bselect-container {
     display: inline-block;
-    margin-top: 60px;
+    margin-top: 20px;
     vertical-align: middle;
     margin-left: 10px;
+}
+
+
+.bprogrammes-expert {
+    font-size: 11px;
+    width: 330px;
+    background-color: #82B6C0;
+    background: rgba(130, 182, 192, 0.5);
+    padding: 5px;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: #3F7A85;
+    color: #707070;
+    font-family: 'Segoe UI';
+
+
+}
+
+.bprogrammes-trine {
+    font-size: 11px;
+    width: 330px;
+    background-color: #82B6C0;
+    background: rgba(130, 182, 192, 0.5);
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    border-radius: 10px;
+    border-left: #3F7A85;
+    color: #707070;
+    font-family: 'Segoe UI';
+
 }
