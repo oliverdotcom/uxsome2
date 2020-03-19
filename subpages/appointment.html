@@ -68,39 +68,58 @@
         <form action="/action_page.php" class="booking-section">
             <label for="month" class="book-selection"></label>
             <select id="month" name="month">
-                <option value="january">January</option>
-                <option value="february">February</option>
-                <option value="march">March</option>
-                <option value="april">April</option>
-                <option value="may">May</option>
-                <option value="june">June</option>
-                <option value="july">July</option>
-                <option value="august">August</option>
-                <option value="september">September</option>
-                <option value="october">October</option>
-                <option value="november">November</option>
-                <option value="december">December</option>
+                <option value="january" class="options">January</option>
+                <option value="february" class="options">February</option>
+                <option value="march" class="options">March</option>
+                <option value="april" class="options">April</option>
+                <option value="may" class="options">May</option>
+                <option value="june" class="options">June</option>
+                <option value="july" class="options">July</option>
+                <option value="august" class="options">August</option>
+                <option value="september" class="options">September</option>
+                <option value="october" class="options">October</option>
+                <option value="november" class="options">November</option>
+                <option value="december" class="options">December</option>
             </select>
             <label for="days" class="book-selection"></label>
             <select id="days" name="days">
-                <option value="monday">Monday</option>
-                <option value="tuesday">Tuesday</option>
-                <option value="wednesday">Wednesday</option>
-                <option value="thursday">Thursday</option>
-                <option value="friday">Friday</option>
+                <option value="monday" class="options">Monday</option>
+                <option value="tuesday" class="options">Tuesday</option>
+                <option value="wednesday" class="options">Wednesday</option>
+                <option value="thursday" class="options">Thursday</option>
+                <option value="friday" class="options">Friday</option>
             </select>
             <label for="hours" class="book-selection"></label>
             <select id="hours" name="hours">
-                <option value="9">9:00</option>
-                <option value="9">9:30</option>
-                <option value="10">10:00</option>
-                <option value="10">10:30</option>
-                <option value="11">11:00</option>
-                <option value="12">12:00</option>
-                <option value="12">12:30</option>
-                <option value="13">13:00</option>
-                <option value="13">13:30</option>
-                <option value="14">14:00</option>
+                <option value="9" class="options">9:00</option>
+                <option value="9" class="options">9:30</option>
+                <option value="10" class="options">10:00</option>
+                <option value="10" class="options">10:30</option>
+                <option value="11" class="options">11:00</option>
+                <option value="12" class="options">12:00</option>
+                <option value="12" class="options">12:30</option>
+                <option value="13" class="options">13:00</option>
+                <option value="13" class="options">13:30</option>
+                <option value="14" class="options">14:00</option>
             </select>
         </form>
+
+        <h2 class="service-header">WHAT KIND OF HELP DO YOU NEED?</h2>
+        <form action="/action_page.php" class="booking-section2">
+            <label for="service" class="book-selection"></label>
+            <select id="service" name="service">
+                <option value="programmes" class="options">Programmes</option>
+                <option value="admission" class="options">Admission &amp; Application</option>
+                <option value="career" class="options">Career counselling</option>
+                <option value="study" class="options">Study planning</option>
+                <option value="personal" class="options">Personal coaching</option>
+            </select>
+        </form>
+        <h2 class="comment-header">COMMENT <span class="optional">(optional)</span></h2>
+        <div class="bcomment">
+            <textarea class="book-comment"></textarea>
+            <input type="btext" id="binput" value>
+            <i class="booksend-icon far fa-paper-plane"></i>
+        </div>
+        <button type="submit" class="bookappbtn"><a href="../subpages/bookingcomplete.html" class="loglink">BOOK</a></button>
     </main>
