@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     overflow: scroll;
     overflow-x: hidden;
-    height: 2025px;
+    height: 2015px;
 
 }
 
@@ -48,4 +48,32 @@ body {
     text-align: center;
     font-weight: normal;
     padding-top: 10px;
+}
+
+.bexpert-subheader {
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 90px;
+}
+
+
+.expert-img {
+    width: 170px;
+    height: 90px;
+    vertical-align: middle;
+    margin-bottom: 24px;
+    margin-left: 25px;
+
+}
+
+
+.bselect-container {
+    display: inline-block;
+    margin-top: 60px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
