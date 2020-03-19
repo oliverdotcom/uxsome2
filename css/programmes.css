@@ -169,67 +169,6 @@ body {
 
 
 
-/*EVENTS CSS CODES*/
-
-
-.uEventsheader {
-    font-size: 1.6em;
-    text-align: center;
-    padding-top: 20px;
-    color: #58676A;
-    margin-bottom: 50px;
-}
-
-.uEventsp {
-    font-size: 1.4em;
-    width: 250px;
-    color: #707070;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-}
-
-#uMyEvents {
-    font-size: 33px;
-    color: white;
-    float: right;
-    align-content: center;
-    margin-right: 20px;
-    margin-top: 45px;
-}
-
-.uu-daysdiv,
-.uStudiediv,
-.uInfomeetdiv,
-.uWeek43div {
-    width: 335px;
-    height: 123px;
-    position: relative;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 42px;
-}
-
-.uu-daysdiv {
-    background-image: url(../images/event%20u-days.jpg)
-}
-
-.uStudiediv {
-    background-image: url(../images/studieinfo.png)
-}
-
-.uInfomeetdiv {
-    background-image: url(../images/infomeetings.png)
-}
-
-.uWeek43div {
-    background-image: url(../images/week43.png)
-}
-
-
-
 /*HOW TO APPLY STYLE CODE STARTS HERE*/
 
 .uHowToheader {
