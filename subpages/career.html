@@ -10,7 +10,8 @@
     <meta name="description" content="Study Counselling is offering career counselling.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex" />
-    <script src="https://kit.fontawesome.com/6a331c31d1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/24affb38d4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/uzz5rrd.css">
     <link rel="stylesheet" href="../css/career.css">
 </head>
@@ -24,33 +25,42 @@
     </header>
 
     <main>
-        <div class="bcareer-section">
-            <button class="accordion-careerbtn">Internship and job portal</button>
-            <button class="accordion-careerbtn">Applications and CVs</button>
-            <div class="panel">
-                <button class="uploadcv-btn">Upload your CV</button>
+        <div id="oWrapper">
+
+            <button type="button" class="oExpand">
+                <p>Internship and job portal <i class="fas fa-plus"></i></p>
+            </button>
+
+            <button type="button" class="oExpand">
+                <p>Applications and CVs <i class="fas fa-plus"></i></p>
+            </button>
+
+            <div class="oShow" style="display:none">
+                <h1 class="uploadcv-btn">UPLOAD CV
+                </h1>
             </div>
 
-            <button class="accordion-careerbtn">Practice for internship and job interviews</button>
+
+            <button type="button" class="oExpand">
+                <p>Practice for Internship and job interviews <i class="fas fa-plus"></i></p>
+            </button>
+
         </div>
     </main>
 
     <script>
-        var acc = document.getElementsByClassName("accordion-careerbtn");
-        var i;
+        // FAQ BOX SCRIPT
+        $('.oExpand').on('click', function () {
+            $(this).find("i").toggleClass("fas fa-plus fas fa-minus");
+        });
 
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        }
+        $('.oExpand').click(function () {
+            $('.minus').toggle();
+        });
 
+        $('.oExpand:eq(1)').click(function () {
+            $('.oShow:eq(0)').slideToggle('500ms');
+        });
     </script>
 </body>
 
