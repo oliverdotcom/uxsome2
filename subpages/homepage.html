@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex" />
     <script src="https://kit.fontawesome.com/6a331c31d1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="../css/homepage.css">
 
 </head>
@@ -18,54 +19,121 @@
             <a href="../index.html" class="back-link"><i class="go-back fas fa-arrow-left"></i></a>
         </div>
     </header>
+    <main>
+        <section class="category-sections">
+            <div class="badmission">
+                <a href="#" class="homepage-arrow">
+                    <h1 class="bhomepage-category">ADMISSION&amp;APPLICATION</h1>
+                </a><br><br>
+            </div>
+            <div class="bprogrammes">
+                <a href="../subpages/programmes.html">
+                    <h1 class="bhomepage-category">PROGRAMMES</h1>
+                </a>
+            </div>
+            <div class="bcareer-homepage">
+                <a href="../subpages/career.html">
+                    <h1 class="bhomepage-category">CAREER</h1>
+                </a>
+            </div>
+            <div class="bpersonalcoaching">
+                <h1 class="bhomepage-category">PERSONAL COACHING</h1>
+            </div>
+            <div class="bevents-homepage">
+                <a href="eventshome.html">
+                    <h1 class="bhomepage-category">EVENTS</h1>
+                </a>
+            </div>
+            <div class="bfaq-homepage">
+                <a href="../subpages/faq.html">
+                    <h1 class="bhomepage-category">FAQ</h1>
+                </a>
+            </div>
+            <div class="bstudentsstories">
+                <h1 class="bhomepage-category">STUDENT STORIES</h1>
+            </div>
+            <div class="bcontacts-homepage">
+                <a href="../subpages/contacts.html">
+                    <h1 class="bhomepage-category">CONTACTS</h1>
+                </a>
+            </div>
+        </section>
+        <div class="chat-section">
+            <button type="button" class="chatbtn-home">CHAT</button>
+        </div>
+        <div class="interactive-section">
+            <div class="bbtn-book">
+                <a href="../subpages/appointment.html" class="bookhome-link"><button type="button"
+                        class="bookbtn-home">BOOK</button></a></div><br>
+            <div class="bbtn-text">
+                <p class="appointmentxt-home">AN APPOINTMENT</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+        <!-- nav bar -->
+
+        <div class="navbar">
+            <p id="home"><i class="navicon fas fa-home"></i><br>Home</p>
+            <p id="search"><i class="navicon fas fa-search"></i><br>Search</p>
+            <p id="myevents"><i class="navicon far fa-heart"></i><br>My events</p>
+            <p id="profile"><i class="navicon fas fa-user-circle"></i><br>Profile</p>
+            <h1 id="cross" style="display: none"><i class="fas fa-times"></i></h1>
+
+            <!-- profile -->
+            <div id="prowrap" style="display: none;">
+                <img src="/images/profileman.png" alt="">
+                <h1>Mike Smith</h1>
+                <ul>
+                    <li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;Messages</li>
+                    <li><i class="far fa-calendar-check"></i>&nbsp;&nbsp;&nbsp;Appointments</li>
+                    <li><i class="far fa-heart"></i>&nbsp;&nbsp;&nbsp;My events</li>
+                    <li><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp; Files</li>
+                    <li><i class="fas fa-cog"></i>&nbsp;&nbsp;&nbsp;Settings</li>
+                </ul>
+                <a href="/index.html"><button><i class="fas fa-sign-out-alt"></i>&nbsp;LOG OUT</button></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        // NAV BAR SCRIPT
+        $('#profile').click(function () {
+            $('.navbar').animate({
+                height: "95%"
+            });
+        });
+
+        $('.navbar p').click(function () {
+            $('.navbar p').hide();
+        });
+
+        $('.navbar p').click(function () {
+            $('#cross').show();
+        });
+
+        $('.navbar p').click(function () {
+            $('#prowrap').show();
+        });
+
+        $('#cross').click(function () {
+            $('.navbar').animate({
+                height: "4em"
+            });
+        });
+
+        $('#cross').click(function () {
+            $('.navbar p').show();
+        });
+
+        $('#cross').click(function () {
+            $('#cross').hide();
+        });
+
+        $('#cross').click(function () {
+            $('#prowrap').hide();
+        });
+    </script>
 </body>
-<main>
-    <section class="category-sections">
-        <div class="badmission">
-            <a href="#" class="homepage-arrow">
-                <h1 class="bhomepage-category">ADMISSION&amp;APPLICATION</h1>
-            </a><br><br>
-        </div>
-        <div class="bprogrammes">
-            <a href="../subpages/programmes.html">
-                <h1 class="bhomepage-category">PROGRAMMES</h1>
-            </a>
-        </div>
-        <div class="bcareer-homepage">
-            <a href="../subpages/career.html">
-                <h1 class="bhomepage-category">CAREER</h1>
-            </a>
-        </div>
-        <div class="bpersonalcoaching">
-            <h1 class="bhomepage-category">PERSONAL COACHING</h1>
-        </div>
-        <div class="bevents-homepage">
-            <a href="eventshome.html">
-                <h1 class="bhomepage-category">EVENTS</h1>
-            </a>
-        </div>
-        <div class="bfaq-homepage">
-            <a href="../subpages/faq.html">
-                <h1 class="bhomepage-category">FAQ</h1>
-            </a>
-        </div>
-        <div class="bstudentsstories">
-            <h1 class="bhomepage-category">STUDENT STORIES</h1>
-        </div>
-        <div class="bcontacts-homepage">
-            <a href="../subpages/contacts.html">
-                <h1 class="bhomepage-category">CONTACTS</h1>
-            </a>
-        </div>
-    </section>
-    <div class="chat-section">
-        <button type="button" class="chatbtn-home">CHAT</button>
-    </div>
-    <div class="interactive-section">
-        <div class="bbtn-book">
-            <a href="../subpages/appointment.html" class="bookhome-link"><button type="button" class="bookbtn-home">BOOK</button></a></div><br>
-        <div class="bbtn-text">
-            <p class="appointmentxt-home">AN APPOINTMENT</p>
-        </div>
-    </div>
-</main>

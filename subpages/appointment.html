@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/appointment.css">
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 
@@ -38,29 +38,36 @@
             <label for="expert"><img src="../images/Dorte%20Hedevang.png" class="expert-img" alt="Dorte-Hedevang">
             </label>
 
-            <p class="bprogrammes-expert">Computer Science, Multimedia Design, IT&amp;Economics, Digital Concept Development, Web Development, Software Development, IT-security</p>
+            <p class="bprogrammes-expert">Computer Science, Multimedia Design, IT&amp;Economics, Digital Concept
+                Development, Web Development, Software Development, IT-security</p>
             <br>
 
             <input type="radio" id="expert" name="Jens" value="expert">
 
             <label for="expert"><img src="../images/Jens%20Nielsen.png" class="expert-img" alt="Jens-Nielsen"> </label>
 
-            <p class="bprogrammes-expert">Marketing Management, Service Management, International Trade&amp;Marketing, E-commerce, Innovation&amp;Entrepreneurship
+            <p class="bprogrammes-expert">Marketing Management, Service Management, International Trade&amp;Marketing,
+                E-commerce, Innovation&amp;Entrepreneurship
             </p>
             <br>
 
             <input type="radio" id="expert" name="Kurt" value="expert">
 
-            <label for="expert"><img src="../images/Kurt%20Rasmussen.png" class="expert-img" alt="Kurt-Rasmussen"> </label>
+            <label for="expert"><img src="../images/Kurt%20Rasmussen.png" class="expert-img" alt="Kurt-Rasmussen">
+            </label>
 
-            <p class="bprogrammes-expert">Financial Management, Bachelor of Financial Management&amp;Services, Construction Coordinator, Agro Business&amp;Landscape Management
+            <p class="bprogrammes-expert">Financial Management, Bachelor of Financial Management&amp;Services,
+                Construction Coordinator, Agro Business&amp;Landscape Management
             </p>
 
             <br>
             <input type="radio" id="expert" name="Trine-Maria" value="expert">
-            <label for="expert"><img src="../images/Trine-Maria%20Frederiksen.png" class="expert-trine" alt="Trine-Maria-Frederiksen"> </label><br>
-            <p class="bprogrammes-trine">Financial Controller, Automotive Technology, Automation Engineering, Production Technology, IT-technology, Product Development&amp;Integrative Technology,
-                Laboratory Technician, Food Technology&amp;Application, Environmental Technology, Laboratory-&amp;Food Technology
+            <label for="expert"><img src="../images/Trine-Maria%20Frederiksen.png" class="expert-trine"
+                    alt="Trine-Maria-Frederiksen"> </label><br>
+            <p class="bprogrammes-trine">Financial Controller, Automotive Technology, Automation Engineering, Production
+                Technology, IT-technology, Product Development&amp;Integrative Technology,
+                Laboratory Technician, Food Technology&amp;Application, Environmental Technology, Laboratory-&amp;Food
+                Technology
 
             </p><br>
         </section>
@@ -121,5 +128,71 @@
             <input type="btext" id="binput" value>
             <i class="booksend-icon far fa-paper-plane"></i>
         </div>
-        <button type="submit" class="bookappbtn"><a href="../subpages/bookingcomplete.html" class="loglink">BOOK</a></button>
+        <button type="submit" class="bookappbtn"><a href="../subpages/bookingcomplete.html"
+                class="loglink">BOOK</a></button>
     </main>
+
+    <footer>
+        <!-- nav bar -->
+
+        <div class="navbar">
+            <p id="home"><i class="navicon fas fa-home"></i><br>Home</p>
+            <p id="search"><i class="navicon fas fa-search"></i><br>Search</p>
+            <p id="myevents"><i class="navicon far fa-heart"></i><br>My events</p>
+            <p id="profile"><i class="navicon fas fa-user-circle"></i><br>Profile</p>
+            <h1 id="cross" style="display: none"><i class="fas fa-times"></i></h1>
+
+            <!-- profile -->
+            <div id="prowrap" style="display: none;">
+                <img src="/images/profileman.png" alt="">
+                <h1>Mike Smith</h1>
+                <ul>
+                    <li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;Messages</li>
+                    <li><i class="far fa-calendar-check"></i>&nbsp;&nbsp;&nbsp;Appointments</li>
+                    <li><i class="far fa-heart"></i>&nbsp;&nbsp;&nbsp;My events</li>
+                    <li><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp; Files</li>
+                    <li><i class="fas fa-cog"></i>&nbsp;&nbsp;&nbsp;Settings</li>
+                </ul>
+                <a href="/index.html"><button><i class="fas fa-sign-out-alt"></i>&nbsp;LOG OUT</button></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // NAV BAR SCRIPT
+        $('#profile').click(function () {
+            $('.navbar').animate({
+                height: "95%"
+            });
+        });
+
+        $('.navbar p').click(function () {
+            $('.navbar p').hide();
+        });
+
+        $('.navbar p').click(function () {
+            $('#cross').show();
+        });
+
+        $('.navbar p').click(function () {
+            $('#prowrap').show();
+        });
+
+        $('#cross').click(function () {
+            $('.navbar').animate({
+                height: "4em"
+            });
+        });
+
+        $('#cross').click(function () {
+            $('.navbar p').show();
+        });
+
+        $('#cross').click(function () {
+            $('#cross').hide();
+        });
+
+        $('#cross').click(function () {
+            $('#prowrap').hide();
+        });
+    </script>
+</body>
