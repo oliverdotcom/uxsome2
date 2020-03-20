@@ -8,6 +8,12 @@
     background-repeat: no-repeat;
 }
 
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
 body {
     width: 100%;
     background-image: url(../images/programmesshort-backgr-01.jpg);
