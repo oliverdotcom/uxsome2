@@ -1,0 +1,120 @@
+/*Programmes styling starts here */
+*,
+*:before,
+*:after {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    margin: 0px;
+    background-image: url(../images/udays-backgr-01.jpg);
+    background-size: cover;
+}
+
+.go-back {
+    font-size: 24px;
+    color: #fafafa;
+}
+
+.back-arrow {
+    position: absolute;
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 5px;
+    width: 40px;
+}
+
+
+
+/* U-DAYS */
+
+#map {
+    position: absolute;
+    /* top: 0;
+            bottom: 0;*/
+    height: 365px;
+    width: 365px;
+    border-radius: 10px;
+    top: 137%;
+    left: 5px;
+    border: 5px solid #82B6C0;
+}
+
+h1 {
+	margin-left: 35px;
+		margin-bottom: 0px;
+}
+
+.title {
+    width: 100%;
+
+}
+
+.fa.li {
+    width: 30px;
+}
+.fa-ul {
+    margin-left: 200px;
+}
+
+.maevents-icons {
+    margin-left: 35px;
+    font-family: Segoe UI;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.events-about {
+	margin: 35px;
+	margin-top: 15px;
+	font-family: Segoe UI;
+}
+
+.maheader-udays {
+
+    width: 100%;
+    background-size: contain;
+
+
+}
+
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: Segoe;
+    src: url('fonts/Segoe UI.ttf');
+}
+
+@font-face {
+    font-family: Segoe Bold;
+    src: url('fonts/Segoe UI Bold.ttf');
+}
+
+@font-face {
+    font-family: Segoe Bold Italic;
+    src: url('fonts/Segoe UI Bold.ttf');
+}
+
+@font-face {
+    font-family: Segoe Italic;
+    src: url('fonts/Segoe UI Bold Italic.ttf');
+}
+
+/* FONTS */
