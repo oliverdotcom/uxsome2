@@ -125,7 +125,7 @@ body {
     text-decoration: none;
     background-color: whitesmoke;
     border: 15px solid whitesmoke;
-    color: black;
+    color: #707070;
     border-radius: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
@@ -139,6 +139,10 @@ body {
     display: inline-block;
     margin: 30px 0 0 0;
     z-index: 2;
+}
+
+.careerp {
+    font-family: 'Segoe UI';
 }
 
 .oShow {
@@ -157,6 +161,7 @@ body {
     z-index: 1;
     border-top: 25px solid rgba(130, 182, 192, 0.5);
 }
+
 
 .oShow p {
     color: rgb(112, 112, 112);

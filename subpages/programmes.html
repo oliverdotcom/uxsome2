@@ -32,8 +32,7 @@
 
         <a href="/subpages/top-upprogrammes.html" class="uTopUpprogrammeslink">
             <div class="uTopdiv">
-                <p class="uTopp"><b>BACHELOR'S TOP-UP
-                        DEGREE</b></p>
+                <p class="uTopp"><b>BACHELOR'S TOP-UP DEGREE</b></p>
             </div>
         </a>
     </main>
@@ -42,7 +41,7 @@
         <!-- nav bar -->
 
         <div class="navbar">
-            <p id="home"><i class="navicon fas fa-home"></i><br>Home</p>
+           <a href="../subpages/homepage.html"><p id="home"><i class="navicon fas fa-home"></i><br>Home</p></a>
             <p id="search"><i class="navicon fas fa-search"></i><br>Search</p>
             <p id="myevents"><i class="navicon far fa-heart"></i><br>My events</p>
             <p id="profile"><i class="navicon fas fa-user-circle"></i><br>Profile</p>
@@ -67,41 +66,42 @@
 
     <script>
         // NAV BAR SCRIPT
-        $('#profile').click(function () {
+        $('#profile').click(function() {
             $('.navbar').animate({
                 height: "95%"
             });
         });
 
-        $('.navbar p').click(function () {
+        $('.navbar p').click(function() {
             $('.navbar p').hide();
         });
 
-        $('.navbar p').click(function () {
+        $('.navbar p').click(function() {
             $('#cross').show();
         });
 
-        $('.navbar p').click(function () {
+        $('.navbar p').click(function() {
             $('#prowrap').show();
         });
 
-        $('#cross').click(function () {
+        $('#cross').click(function() {
             $('.navbar').animate({
                 height: "4em"
             });
         });
 
-        $('#cross').click(function () {
+        $('#cross').click(function() {
             $('.navbar p').show();
         });
 
-        $('#cross').click(function () {
+        $('#cross').click(function() {
             $('#cross').hide();
         });
 
-        $('#cross').click(function () {
+        $('#cross').click(function() {
             $('#prowrap').hide();
         });
+
     </script>
 </body>
 
