@@ -51,7 +51,7 @@
 
             <!-- profile -->
             <div id="prowrap" style="display: none;">
-                <img src="/images/profileman.png" alt="">
+                <img src="../images/profileman.png" alt="">
                 <h1>Mike Smith</h1>
                 <ul>
                     <li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;Messages</li>
@@ -68,40 +68,42 @@
 
     <script>
         // NAV BAR SCRIPT
-        $('#profile').click(function() {
+        $('#profile').click(function () {
             $('.navbar').animate({
                 height: "95%"
             });
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('.navbar p').hide();
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('#cross').show();
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('#prowrap').show();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('.navbar').animate({
                 height: "4em"
             });
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('.navbar p').show();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('#cross').hide();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('#prowrap').hide();
         });
     </script>
-</body></html>
+</body>
+
+</html>

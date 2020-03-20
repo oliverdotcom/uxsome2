@@ -20,32 +20,32 @@
         <header class="uheader"><b>PROGRAMMES</b></header>
 
 
-            <a href="https://www.baaa.dk/programmes/ap-degree/it-technology/" class="uITlink">
+        <a href="https://www.baaa.dk/programmes/ap-degree/it-technology/" class="uITlink">
 
-                <div class="uITdiv">
-                    <p class="uITp"><b>IT Technology</b></p>
-                </div>
-            </a>
+            <div class="uITdiv">
+                <p class="uITp"><b>IT Technology</b></p>
+            </div>
+        </a>
 
-            <a href="https://www.baaa.dk/programmes/ap-degree/marketing-management/" class="uMMlink">
-                <div class="uMMdiv">
-                    <p class="uMMp"><b>Marketing Management</b></p>
-                </div>
-            </a>
-
-
-            <a href="https://www.baaa.dk/programmes/ap-degree/multimedia-design/" class="uMDlink">
-                <div class="uMDdiv">
-                    <p class="uMDp"><b>Multimedia Design</b></p>
-                </div>
-            </a>
+        <a href="https://www.baaa.dk/programmes/ap-degree/marketing-management/" class="uMMlink">
+            <div class="uMMdiv">
+                <p class="uMMp"><b>Marketing Management</b></p>
+            </div>
+        </a>
 
 
-            <a href="https://www.baaa.dk/programmes/ap-degree/chemical-and-biotechnical-science/" class="uBioSclink">
-                <div class="uBioScdiv">
-                    <p class="uBioScp"><b>Chemical and Biotechnical Science</b></p>
-                </div>
-            </a>
+        <a href="https://www.baaa.dk/programmes/ap-degree/multimedia-design/" class="uMDlink">
+            <div class="uMDdiv">
+                <p class="uMDp"><b>Multimedia Design</b></p>
+            </div>
+        </a>
+
+
+        <a href="https://www.baaa.dk/programmes/ap-degree/chemical-and-biotechnical-science/" class="uBioSclink">
+            <div class="uBioScdiv">
+                <p class="uBioScp"><b>Chemical and Biotechnical Science</b></p>
+            </div>
+        </a>
 
 
 
@@ -54,7 +54,9 @@
         <!-- nav bar -->
 
         <div class="navbar">
-            <a href="../subpages/homepage.html"><p id="home"><i class="navicon fas fa-home"></i><br>Home</p></a>
+            <a href="../subpages/homepage.html">
+                <p id="home"><i class="navicon fas fa-home"></i><br>Home</p>
+            </a>
             <p id="search"><i class="navicon fas fa-search"></i><br>Search</p>
             <p id="myevents"><i class="navicon far fa-heart"></i><br>My events</p>
             <p id="profile"><i class="navicon fas fa-user-circle"></i><br>Profile</p>
@@ -62,7 +64,7 @@
 
             <!-- profile -->
             <div id="prowrap" style="display: none;">
-                <img src="/images/profileman.png" alt="">
+                <img src="../images/profileman.png" alt="">
                 <h1>Mike Smith</h1>
                 <ul>
                     <li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;Messages</li>
@@ -77,42 +79,41 @@
     </footer>
     <script>
         // NAV BAR SCRIPT
-        $('#profile').click(function() {
+        $('#profile').click(function () {
             $('.navbar').animate({
                 height: "95%"
             });
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('.navbar p').hide();
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('#cross').show();
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('#prowrap').show();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('.navbar').animate({
                 height: "4em"
             });
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('.navbar p').show();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('#cross').hide();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('#prowrap').hide();
         });
-
     </script>
 </body>
 

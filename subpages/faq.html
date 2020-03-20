@@ -32,7 +32,8 @@
 
             <div class="oShow" style="display:none">
                 <p>You must apply for a 1½-year Bachelor’s top-up degree digitally via our
-                    application form available on our website. You can apply from 1 February (study start in August) and 15
+                    application form available on our website. You can apply from 1 February (study start in August) and
+                    15
                     September (study start in January).</p>
             </div>
 
@@ -43,7 +44,8 @@
             <div class="oShow" style="display:none">
                 <p>EU citizens pay no tuition fees for studying in Denmark.
 
-                    Non-EU citizens usually pay tuition fees according to the programme they are studying. (4-6,700 Euro per
+                    Non-EU citizens usually pay tuition fees according to the programme they are studying. (4-6,700 Euro
+                    per
                     semester).
                     SEE ALL THE TUITION FEES
 
@@ -78,10 +80,12 @@
 
             <div class="oShow" style="display:none">
                 <p>We strongly encourage our international students to learn Danish during
-                    their stay in Denmark. Your study programme is taught in English and you will be able to get by with just
+                    their stay in Denmark. Your study programme is taught in English and you will be able to get by with
+                    just
                     speaking English, however, when getting to know a new culture, it is very important to speak the
                     language.
-                    Additionally, you will be looking for an internship at some point during your studies, and here, being
+                    Additionally, you will be looking for an internship at some point during your studies, and here,
+                    being
                     able
                     to speak Danish will provide you with a great advantage.
 
@@ -89,7 +93,8 @@
                     Business
                     Academy, flexibly organised to fit your schedule.
 
-                    As a new student, you will receive information about this option before the start of your programme.</p>
+                    As a new student, you will receive information about this option before the start of your programme.
+                </p>
             </div>
 
             <button type="button" class="oExpand">
@@ -157,7 +162,9 @@
         <!-- nav bar -->
 
         <div class="navbar">
-           <a href="../subpages/homepage.html"><p id="home"><i class="navicon fas fa-home"></i><br>Home</p></a>
+            <a href="../subpages/homepage.html">
+                <p id="home"><i class="navicon fas fa-home"></i><br>Home</p>
+            </a>
             <p id="search"><i class="navicon fas fa-search"></i><br>Search</p>
             <p id="myevents"><i class="navicon far fa-heart"></i><br>My events</p>
             <p id="profile"><i class="navicon fas fa-user-circle"></i><br>Profile</p>
@@ -165,7 +172,7 @@
 
             <!-- profile -->
             <div id="prowrap" style="display: none;">
-                <img src="/images/profileman.png" alt="">
+                <img src="../images/profileman.png" alt="">
                 <h1>Mike Smith</h1>
                 <ul>
                     <li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;Messages</li>
@@ -182,74 +189,76 @@
 
     <script>
         // FAQ BOX SCRIPT
-        $('.oExpand').on('click', function() {
+        $('.oExpand').on('click', function () {
             $(this).find("i").toggleClass("fas fa-plus fas fa-minus");
         });
 
-        $('.oExpand').click(function() {
+        $('.oExpand').click(function () {
             $('.minus').toggle();
         });
 
-        $('.oExpand:eq(0)').click(function() {
+        $('.oExpand:eq(0)').click(function () {
             $('.oShow:eq(0)').slideToggle('500ms');
         });
 
-        $('.oExpand:eq(1)').click(function() {
+        $('.oExpand:eq(1)').click(function () {
             $('.oShow:eq(1)').slideToggle('500ms');
         });
 
-        $('.oExpand:eq(2)').click(function() {
+        $('.oExpand:eq(2)').click(function () {
             $('.oShow:eq(2)').slideToggle('500ms');
         });
 
-        $('.oExpand:eq(3)').click(function() {
+        $('.oExpand:eq(3)').click(function () {
             $('.oShow:eq(3)').slideToggle('500ms');
         });
 
-        $('.oExpand:eq(4)').click(function() {
+        $('.oExpand:eq(4)').click(function () {
             $('.oShow:eq(4)').slideToggle('500ms');
         });
 
-        $('.oExpand:eq(5)').click(function() {
+        $('.oExpand:eq(5)').click(function () {
             $('.oShow:eq(5)').slideToggle('500ms');
         });
 
 
         // NAV BAR SCRIPT
-        $('#profile').click(function() {
+        $('#profile').click(function () {
             $('.navbar').animate({
                 height: "95%"
             });
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('.navbar p').hide();
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('#cross').show();
         });
 
-        $('.navbar p').click(function() {
+        $('.navbar p').click(function () {
             $('#prowrap').show();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('.navbar').animate({
                 height: "4em"
             });
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('.navbar p').show();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('#cross').hide();
         });
 
-        $('#cross').click(function() {
+        $('#cross').click(function () {
             $('#prowrap').hide();
         });
     </script>
-</body></html>
+</body>
+
+</html>
