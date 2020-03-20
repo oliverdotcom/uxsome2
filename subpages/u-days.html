@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/u-days.css">
     <link rel="icon" type="image/x-icon" href="" />
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6a331c31d1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
 </head>
@@ -21,7 +21,7 @@
 
     <div class="back-arrow">
 
-        <a href="#" class="back-link"><i class="go-back fas fa-arrow-left"></i></a>
+        <a href="../subpages/eventshome.html" class="back-link"><i class="go-back fas fa-arrow-left"></i></a>
 
     </div>
 
@@ -36,6 +36,7 @@
                 <li><i class="fa-li fa fa-map-marker"></i>Sønderhøj 30</li>
             </ul>
         </div>
+<<<<<<< HEAD
 
         <h1>About</h1>
         <p class="events-about">Come hear about Multimedia Design program,
@@ -60,17 +61,26 @@
             }).setText(
                 'Business Academy Aarhus, Main building, Sønderhøj 30, 8260 Viby J'
             );
+=======
+>>>>>>> origin/master
 
-            // create DOM element for the marker
-            var el = document.createElement('div');
-            el.id = 'marker';
+        <h1>About</h1>
+        <p class="events-about">Come hear about Multimedia Design program,
+            an exciting 2-year business academy education.
+            Meet students and teachers and get an
+            impression of Business Academy Aarhus.</p>
 
+<<<<<<< HEAD
             // create the marker
             new mapboxgl.Marker(el)
                 .setLngLat(monument)
                 .setPopup(popup) // sets a popup on this marker
                 .addTo(map);
         </script>
+=======
+        <div id="map"></div>
+
+>>>>>>> origin/master
 
 
 
@@ -79,6 +89,95 @@
 
     </main>
     <footer>
+        <!-- nav bar -->
+
+        <div class="navbar">
+            <p id="home"><i class="navicon fas fa-home"></i><br>Home</p>
+            <p id="search"><i class="navicon fas fa-search"></i><br>Search</p>
+            <p id="myevents"><i class="navicon far fa-heart"></i><br>My events</p>
+            <p id="profile"><i class="navicon fas fa-user-circle"></i><br>Profile</p>
+            <h1 id="cross" style="display: none"><i class="fas fa-times"></i></h1>
+
+            <!-- profile -->
+            <div id="prowrap" style="display: none;">
+                <img src="/images/profileman.png" alt="">
+                <h1>Mike Smith</h1>
+                <ul>
+                    <li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;Messages</li>
+                    <li><i class="far fa-calendar-check"></i>&nbsp;&nbsp;&nbsp;Appointments</li>
+                    <li><i class="far fa-heart"></i>&nbsp;&nbsp;&nbsp;My events</li>
+                    <li><i class="far fa-file-alt"></i>&nbsp;&nbsp;&nbsp; Files</li>
+                    <li><i class="fas fa-cog"></i>&nbsp;&nbsp;&nbsp;Settings</li>
+                </ul>
+                <a href="/index.html"><button><i class="fas fa-sign-out-alt"></i>&nbsp;LOG OUT</button></a>
+            </div>
+        </div>
     </footer>
-    <script></script>
-</body></html>
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiYmlseWFuYSIsImEiOiJjazdkMTd1N2swNWZoM2Vxazl2cDJ5NTBlIn0.uA2Ceq05BD-O1NfHH8LZIg';
+        var monument = [10.157, 56.118];
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/bilyana/ck7wh7ei007nz1imu0s2mfqxt',
+            center: monument,
+            zoom: 15
+        });
+
+        // create the popup
+        var popup = new mapboxgl.Popup({
+            offset: 25
+        }).setText(
+            'Business Academy Aarhus, Main building, Sønderhøj 30, 8260 Viby J'
+        );
+
+        // create DOM element for the marker
+        var el = document.createElement('div');
+        el.id = 'marker';
+
+        // create the marker
+        new mapboxgl.Marker(el)
+            .setLngLat(monument)
+            .setPopup(popup) // sets a popup on this marker
+            .addTo(map);
+
+        // NAV BAR SCRIPT
+        $('#profile').click(function () {
+            $('.navbar').animate({
+                height: "95%"
+            });
+        });
+
+        $('.navbar p').click(function () {
+            $('.navbar p').hide();
+        });
+
+        $('.navbar p').click(function () {
+            $('#cross').show();
+        });
+
+        $('.navbar p').click(function () {
+            $('#prowrap').show();
+        });
+
+        $('#cross').click(function () {
+            $('.navbar').animate({
+                height: "4em"
+            });
+        });
+
+        $('#cross').click(function () {
+            $('.navbar p').show();
+        });
+
+        $('#cross').click(function () {
+            $('#cross').hide();
+        });
+
+        $('#cross').click(function () {
+            $('#prowrap').hide();
+        });
+    </script>
+</body>
+
+</html>
