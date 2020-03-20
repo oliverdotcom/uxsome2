@@ -10,14 +10,15 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI';
 
 }
 
 body {
     width: 100%;
-    background-image: url(../images/programmesshort-backgr-01.jpg);
+    background-image: url(../images/frontpageevents-background-01.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .go-back {
@@ -39,9 +40,9 @@ body {
 .uEventsheader {
     font-size: 1.6em;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #58676A;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .uEventsp {
@@ -51,7 +52,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 #uMyEvents {
