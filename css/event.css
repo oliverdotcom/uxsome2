@@ -16,15 +16,11 @@ html {
 
 body {
     width: 100%;
-<<<<<<< HEAD
-    background-image: url(../images/udays-backgr-01.jpg);
-    background-size: contain;
-=======
     background-image: url(../images/events-frontpage-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 1065px;
->>>>>>> origin/master
+
 }
 
 .go-back {
