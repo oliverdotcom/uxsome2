@@ -5,6 +5,19 @@
     padding: 0;
 }
 
+.go-back {
+    font-size: 24px;
+    color: #707070;
+}
+
+.back-arrow {
+    margin: 8px;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    padding: 5px;
+    width: 40px;
+}
+
 #oWrapper {
     width: 375px;
     height: 420vh;
