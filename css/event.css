@@ -16,9 +16,10 @@ html {
 
 body {
     width: 100%;
-    background-image: url(../images/frontpageevents-background-01.jpg);
-    background-size: contain;
+    background-image: url(../images/events-frontpage-01.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+    height: 1065px;
 }
 
 .go-back {
@@ -27,7 +28,7 @@ body {
 }
 
 .back-arrow {
-    margin: 10px;
+    margin: 8px;
     border: 1px solid #707070;
     border-radius: 50px;
     padding: 5px;
@@ -37,22 +38,26 @@ body {
 /*EVENTS CSS CODES*/
 
 
+.uevents {
+    margin-top: -10px;
+}
+
 .uEventsheader {
     font-size: 1.6em;
     text-align: center;
-    padding-top: 10px;
     color: #58676A;
-    margin-bottom: 40px;
+
 }
 
 .uEventsp {
-    font-size: 1.4em;
+    font-size: 25px;
     width: 250px;
     color: #707070;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
+    font-weight: normal;
+
 }
 
 #uMyEvents {
@@ -64,6 +69,9 @@ body {
     margin-top: 45px;
 }
 
+.uallevents {
+    margin-top: 150px;
+}
 .uu-daysdiv,
 .uStudiediv,
 .uInfomeetdiv,
@@ -74,11 +82,11 @@ body {
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 42px;
+    margin-bottom: 50px;
 }
 
 .uu-daysdiv {
-    background-image: url(../images/event%20u-days.jpg)
+    background-image: url(../images/events-udays.png)
 }
 
 .uStudiediv {
@@ -94,7 +102,7 @@ body {
 }
 
 
-/*U-DAYS CSS CODE STARTS HERE*/
+/*U-DAYS CSS CODE ENDS HERE*/
 
 
 
