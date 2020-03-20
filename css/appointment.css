@@ -13,12 +13,12 @@ html {
 
 body {
 
-    background-image: url(../images/appointment-backgroundlong-01.jpg);
+    background-image: url(../images/booking-background-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: scroll;
     overflow-x: hidden;
-    height: 2025px;
+    height: 2124px;
 
 }
 
@@ -48,4 +48,212 @@ body {
     text-align: center;
     font-weight: normal;
     padding-top: 10px;
+}
+
+.bexpert-subheader {
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 90px;
+}
+
+
+.expert-img {
+    width: 170px;
+    height: 90px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+
+.expert-trine {
+    width: 170px;
+    height: 90px;
+    vertical-align: middle;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+
+.bselect-container {
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+.bprogrammes-expert {
+    font-size: 14px;
+    width: 330px;
+    background-color: #82B6C0;
+    background: rgba(130, 182, 192, 0.5);
+    padding: 8px;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: #3F7A85;
+    color: #707070;
+    font-family: 'Segoe UI';
+
+
+}
+
+.bprogrammes-trine {
+    font-size: 14px;
+    width: 330px;
+    background-color: #82B6C0;
+    background: rgba(130, 182, 192, 0.5);
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    border-radius: 10px;
+    border-left: #3F7A85;
+    color: #707070;
+    font-family: 'Segoe UI';
+
+}
+
+.booking-section {
+    margin-left: 7px;
+    margin-top: 20px;
+}
+
+.book-selection {
+    margin-left: 9px;
+}
+
+.time-header {
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 75px;
+}
+
+#month {
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Segoe UI';
+    border: 2px solid #82B6C0;
+    border-radius: 10px;
+    padding: 3px;
+
+}
+
+#days {
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Segoe UI';
+    border: 2px solid #82B6C0;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#hours {
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Segoe UI';
+    border: 2px solid #82B6C0;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+.service-header {
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 105px;
+}
+
+#service {
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Segoe UI';
+    border: 2px solid #82B6C0;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.options {
+    font-size: 16px;
+    color: #707070;
+}
+
+.booking-section2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.bcomment {
+    margin-top: 20px;
+    border: 1px solid #82B6C0;
+    background: white;
+    border-radius: 20px;
+    padding: 12px;
+    width: 300px;
+    height: 200px;
+    margin-left: 38px;
+}
+
+.optional {
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+}
+
+.comment-header {
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 105px;
+}
+
+.booksend-icon {
+    color: #707070;
+    background-color: #82B6C0;
+    border-radius: 50px;
+    padding: 7px;
+    width: 30px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: -30px;
+
+}
+
+
+.bookappbtn {
+    background-color: #82B6C0;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border-radius: 40px;
+    height: 53px;
+    width: 111px;
+    margin-top: 25px;
+    margin-left: 135px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

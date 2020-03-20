@@ -70,12 +70,13 @@
     bottom: 0;
     width: 100%;
     height: 4em;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-around;
     z-index: 3;
+    border: 1px solid #82B6C0;
 }
 
 /* buttons inside nav bar */
@@ -86,12 +87,22 @@
     text-decoration: none;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navicon {
+    font-size: 18px;
+    color: #82B6C0;
 }
 
 #cross {
     margin-top: 5%;
     margin-left: 80%;
     color: #707070;
+}
+
+button i {
+    font-size: 14px;
 }
 
 

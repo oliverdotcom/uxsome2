@@ -1,4 +1,3 @@
-
 <!--BOOK AN APPOINTMENT !-->
 
 <!DOCTYPE html>
@@ -26,3 +25,101 @@
     <header class="bbook-header">
         <h1 class="bbook-txt">YOU ARE WELCOME TO CONTACT US<br> IF YOU HAVE ANY QUESTIONS!</h1>
     </header>
+
+
+    <main>
+
+        <h2 class="bexpert-subheader">SELECT AN EXPERT</h2>
+
+        <section class="bselect-container">
+
+            <input type="radio" id="expert" name="Dorte" value="expert">
+
+            <label for="expert"><img src="../images/Dorte%20Hedevang.png" class="expert-img" alt="Dorte-Hedevang">
+            </label>
+
+            <p class="bprogrammes-expert">Computer Science, Multimedia Design, IT&amp;Economics, Digital Concept Development, Web Development, Software Development, IT-security</p>
+            <br>
+
+            <input type="radio" id="expert" name="Jens" value="expert">
+
+            <label for="expert"><img src="../images/Jens%20Nielsen.png" class="expert-img" alt="Jens-Nielsen"> </label>
+
+            <p class="bprogrammes-expert">Marketing Management, Service Management, International Trade&amp;Marketing, E-commerce, Innovation&amp;Entrepreneurship
+            </p>
+            <br>
+
+            <input type="radio" id="expert" name="Kurt" value="expert">
+
+            <label for="expert"><img src="../images/Kurt%20Rasmussen.png" class="expert-img" alt="Kurt-Rasmussen"> </label>
+
+            <p class="bprogrammes-expert">Financial Management, Bachelor of Financial Management&amp;Services, Construction Coordinator, Agro Business&amp;Landscape Management
+            </p>
+
+            <br>
+            <input type="radio" id="expert" name="Trine-Maria" value="expert">
+            <label for="expert"><img src="../images/Trine-Maria%20Frederiksen.png" class="expert-trine" alt="Trine-Maria-Frederiksen"> </label><br>
+            <p class="bprogrammes-trine">Financial Controller, Automotive Technology, Automation Engineering, Production Technology, IT-technology, Product Development&amp;Integrative Technology,
+                Laboratory Technician, Food Technology&amp;Application, Environmental Technology, Laboratory-&amp;Food Technology
+
+            </p><br>
+        </section>
+        <h2 class="time-header">DATE &amp; TIME</h2>
+        <form action="/action_page.php" class="booking-section">
+            <label for="month" class="book-selection"></label>
+            <select id="month" name="month">
+                <option value="january" class="options">January</option>
+                <option value="february" class="options">February</option>
+                <option value="march" class="options">March</option>
+                <option value="april" class="options">April</option>
+                <option value="may" class="options">May</option>
+                <option value="june" class="options">June</option>
+                <option value="july" class="options">July</option>
+                <option value="august" class="options">August</option>
+                <option value="september" class="options">September</option>
+                <option value="october" class="options">October</option>
+                <option value="november" class="options">November</option>
+                <option value="december" class="options">December</option>
+            </select>
+            <label for="days" class="book-selection"></label>
+            <select id="days" name="days">
+                <option value="monday" class="options">Monday</option>
+                <option value="tuesday" class="options">Tuesday</option>
+                <option value="wednesday" class="options">Wednesday</option>
+                <option value="thursday" class="options">Thursday</option>
+                <option value="friday" class="options">Friday</option>
+            </select>
+            <label for="hours" class="book-selection"></label>
+            <select id="hours" name="hours">
+                <option value="9" class="options">9:00</option>
+                <option value="9" class="options">9:30</option>
+                <option value="10" class="options">10:00</option>
+                <option value="10" class="options">10:30</option>
+                <option value="11" class="options">11:00</option>
+                <option value="12" class="options">12:00</option>
+                <option value="12" class="options">12:30</option>
+                <option value="13" class="options">13:00</option>
+                <option value="13" class="options">13:30</option>
+                <option value="14" class="options">14:00</option>
+            </select>
+        </form>
+
+        <h2 class="service-header">WHAT KIND OF HELP DO YOU NEED?</h2>
+        <form action="/action_page.php" class="booking-section2">
+            <label for="service" class="book-selection"></label>
+            <select id="service" name="service">
+                <option value="programmes" class="options">Programmes</option>
+                <option value="admission" class="options">Admission &amp; Application</option>
+                <option value="career" class="options">Career counselling</option>
+                <option value="study" class="options">Study planning</option>
+                <option value="personal" class="options">Personal coaching</option>
+            </select>
+        </form>
+        <h2 class="comment-header">COMMENT <span class="optional">(optional)</span></h2>
+        <div class="bcomment">
+            <textarea class="book-comment"></textarea>
+            <input type="btext" id="binput" value>
+            <i class="booksend-icon far fa-paper-plane"></i>
+        </div>
+        <button type="submit" class="bookappbtn"><a href="../subpages/bookingcomplete.html" class="loglink">BOOK</a></button>
+    </main>
