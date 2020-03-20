@@ -14,10 +14,10 @@ html {
 body {
     width: 100%;
     background-image: url(../images/careercounselling-background-01.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     overflow: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
 
 
 }
@@ -46,6 +46,7 @@ body {
     font-family: 'Segoe UI';
     font-size: 26px;
     text-align: center;
+    margin-bottom: 175px;
 }
 
 .accordion-careerbtn {
@@ -104,9 +105,70 @@ body {
     font-weight: bold;
     background: none;
     padding: 14px;
-    order: 1px solid #82B6C0;
+    border: 1px solid #82B6C0;
     box-shadow: 0 0 10px rgba(112, 112, 112, 1);
     width: 300px;
     border-radius: 20px;
+    text-align: center;
+    margin-left: 9px;
+    background-color: #82B6C0;
 
+}
+
+#oWrapper {
+    width: 375px;
+    height: 420vh;
+    text-align: center;
+}
+
+.oExpand p {
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 15px solid whitesmoke;
+    color: black;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.oExpand {
+    width: 90vw;
+    position: relative;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 30px 0 0 0;
+    z-index: 2;
+}
+
+.oShow {
+    position: relative;
+    display: inline-block;
+    background: rgba(130, 182, 192, 0.5);
+    border: 10px solid rgba(130, 182, 192, 0.5);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    width: 90vw;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-top: -15px;
+    text-align: left;
+    z-index: 1;
+    border-top: 25px solid rgba(130, 182, 192, 0.5);
+}
+
+.oShow p {
+    color: rgb(112, 112, 112);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.oShow h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button i {
+    font-size: 14px;
 }
